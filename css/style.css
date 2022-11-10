@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Kalam:wght@300;400;700&display=swap');
+/* ===== Default Css Start Here ===== */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+span,
+input,
+form,
+.btn,
+textarea,
+.navbar,
+.navbar-brand,
+table,
+tr,
+td {
+  padding: 0;
+  margin: 0;
+}
+/* ===== Default Css End Here ===== */
+body{
+  font-family: 'Delius Unicase', cursive;
+  /* font-family: 'Kalam', cursive; */
+}
+
+/* ===== header_section Start Here ===== */
+.menu_part{
+  padding: 25px 0px;
+}
+.menu_part .logo{
+  font-size: 40px;
+}
+.menu .nav-item{
+  padding: 5px 15px;
+}
+.last_menu{
+  padding-right: 0px !important;
+}
+.menu .nav-item .nav-link{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Kalam', cursive;
+}
+.menu .nav-item .active,
+.menu .nav-item .nav-link:hover{
+  color: #263238 !important;
+}
+/* ===== header_section End Here ===== */
+/* ===== main_section Start Here ===== */
+#main{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.main_left{
+  padding-top: 15%;
+}
+.hey{
+  font-size: 50px;
+  font-family: 'Kalam', cursive;
+}
+.hey::after{
+  content: "";
+  width: 20vw;
+  height: 2px;
+  background-color: #000;
+  display: inline-block;
+  transform: translateY(-10px);
+  margin-left: 15px;
+}
+.name{
+  font-size: 70px;
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.main_left h4{
+  font-size: 25px;
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.common_btn {
+	padding: 10px 20px;
+	border: 2px solid black;
+	font-size: 15px;
+	margin-right: 20px;
+	margin-top: 20px;
+  text-transform: uppercase;
+}
+.common_btn:hover{
+  background-color: #64786A;
+  border-color: #455A64;
+  color: #fff;
+}
+/* ===== main_section End Here ===== */
+/* ===== about_section Start Here ===== */
+#about{
+  padding: 50px 0;
+}
+.about_right{
+  padding-top: 90px;
+  padding-left: 20px;
+}
+.about_right .intro{
+  font-size: 50px;
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  word-spacing: 15px;
+}
+.about_right p{
+  padding-top: 25px;
+  font-family: 'Kalam', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  color: #777777;
+}
+/* ===== about_section End Here ===== */
+/* ===== service_section Start Here ===== */
+#service{
+  padding: 50px 0;
+}
+.common_heading{}
+.common_heading .title{
+  font-size: 40px;
+  font-family: 'Delius Unicase', cursive;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.common_heading p{
+  font-size: 18px;
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  color: #777777;
+}
+.service_item{
+  background-color: #F8FCFD;
+  padding:40px;
+  text-align: center;
+  transition: 0.4s all ease;
+}
+.service_item:hover{
+  /* box-shadow: 5px 5px #F8FCFD; */
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.service_item img{
+  margin-bottom: 20px;
+}
+.service_item h4{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Delius Unicase', cursive;
+  margin-bottom: 20px;
+}
+.service_item p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Kalam', cursive;
+  color: #777777;
+}
+/* ===== service_section End Here ===== */
+/* ===== recent-work_section Start Here ===== */
+#contact,
+#recent_work{
+  padding: 50px 0;
+}
+.owl-carousel .item img{
+  position: relative;
+}
+.owl-carousel .item h4{
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ff4500;
+  font-size: 0.7rem;
+}
+/* ===== recent-work_section End Here ===== */
+/* ===== contact_section Start Here ===== */
+#contact form input,
+#contact form textarea{
+  font-family: 'Kalam', cursive;
+}
+/* ===== contact_section End Here ===== */
+/* ===== footer_section Start Here ===== */
+#footer{
+  background-color: #F8FCFD;
+  padding: 50px 0;
+}
+.footer_logo{
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+}
+.follow{
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Delius Unicase', cursive;
+  padding: 15px 0;
+}
+.social_link li{
+  display: inline;
+  font-size: 30px;
+  padding: 0px 15px;
+}
+.social_link li a i{
+  color: #e8e4eb;
+}
+.social_link li a i:hover{
+  color: #64786A;
+}
+.top_left{
+  padding-top: 15px;
+}
+.top_left span a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Kalam', cursive;
+}
+.top_left span {
+  padding-right: 20px;
+}
+.top_left span i {
+  font-size: 1rem;
+  padding-right: 7px;
+  color: #64786A;
+}
+/* ===== footer_section End Here ===== */
