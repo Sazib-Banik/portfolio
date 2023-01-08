@@ -4,6 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Sazib-Portfolio</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("xWge5c0RcxQsvGhf4");
+      })();
+    </script>
     <!-- ===== All CSS Link Here ===== -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/all.min.css" />
@@ -250,7 +259,7 @@
           </div>
         </div>
         <!-- form start -->
-        <form action="#" method="post" class="mt_30">
+        <div class="mt_30">
           <div class="row pt-5">
             <div class="col">
               <input
@@ -259,6 +268,7 @@
                 placeholder="First name"
                 aria-label="First name"
                 name="#"
+                id="fName"
               />
             </div>
             <div class="col">
@@ -268,43 +278,46 @@
                 placeholder="Last name"
                 aria-label="Last name"
                 name="#"
+                id="lName"
               />
             </div>
           </div>
           <div class="row pt-3">
             <div class="col">
               <input
-                type="text"
+                type="email"
                 class="form-control"
                 placeholder="Email Address"
                 aria-label="Email Address"
                 name="#"
+                id="email"
               />
             </div>
             <div class="col">
               <input
-                type="text"
+                type="tel"
                 class="form-control"
                 placeholder="Phone Number"
                 aria-label="Phone Number"
                 name="#"
+                id="phone"
               />
             </div>
           </div>
           <div class="my-3">
             <textarea
               class="form-control"
-              id="text"
+              id="message"
               rows="5"
               placeholder="Drop your massage here.."
             ></textarea>
           </div>
           <div class="col-12 text-center">
-            <button type="submit" class="btn common_btn submit_massage">
+            <button type="submit" class="btn common_btn" id="submit_massage">
               Send massage
             </button>
           </div>
-        </form>
+        </div>
       </div>
     </section>
     <!-- contact_section end -->
