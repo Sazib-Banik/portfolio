@@ -1,106 +1,122 @@
-/* extra Small devices (landscape phones, 576px and up) */
-@media (min-width: 320px) and (max-width: 575px) {
-    #main{
-        height: 700px;
-    }
-    .hey {
-        font-size: 35px;
-    }
-    .name {
-        font-size: 30px;
-    }
-    .main_left h4 {
-        font-size: 20px;
-    }
-    .about_right .intro {
-        font-size: 20px;
-    }
-    .about_right p {
-        font-size: 15px;
-    }
-    .common_heading .title {
-        font-size: 25px;
-    }
-    .common_heading p {
-        font-size: 15px;
-    }
-    .service_item{
-        margin-top: 20px;
-    }
-    .service_item p {
-        font-size: 15px;
-    }
-    #contact form input,
-    #contact form textarea {
-        font-size: 15px;
-    }
-    .follow {
-        font-size: 25px;
-    }
-    .top_left span {
-        padding-right: 25px;
-    }
+/* XX-Large
+  devices
+  (larger desktops, 1400px and up)
+  */
+@media (min-width: 1400px) {
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767px) {
-    #main{
-        height: 900px;
-    }
-    .hey {
-        font-size: 35px;
-    }
-    .name {
-        font-size: 40px;
-    }
-    .main_left h4 {
-        font-size: 20px;
-    }
-    .about_right .intro {
-        font-size: 35px;
-    }
-    .about_right p {
-        font-size: 15px;
-    }
-    .common_heading .title {
-        font-size: 35px;
-    }
-    .common_heading p {
-        font-size: 15px;
-    }
-    .service_item{
-        margin-top: 20px;
-    }
-    .service_item p {
-        font-size: 15px;
-    }
-    #contact form input,
-    #contact form textarea {
-        font-size: 15px;
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {
-    .name {
-        font-size: 45px;
-    }
-    .about_right .intro {
-        font-size: 30px;
-    }
-    .common_heading .title {
-        font-size: 35px;
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399px) {
 }
 /* 
- XX-Large devices (larger desktops, 1400px and up) */
-@media (min-width: 1400px) {
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .service_item {
+    padding: 40px 30px;
+    min-height: 265px;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .name {
+    font-size: 45px;
+  }
+  .about_right .intro {
+    font-size: 30px;
+  }
+  .common_heading .title {
+    font-size: 35px;
+  }
+  .service_item {
+    padding: 40px 30px;
+    min-height: 360px;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* #main {
+    height: 900px;
+  } */
+  .hey {
+    font-size: 35px;
+  }
+  .name {
+    font-size: 40px;
+  }
+  .main_left h4 {
+    font-size: 20px;
+  }
+  .about_right .intro {
+    font-size: 35px;
+  }
+  .about_right p {
+    font-size: 15px;
+  }
+  .about_right {
+    padding-top: 0px;
+    padding-left: 20px;
+  }
+  .common_heading .title {
+    font-size: 35px;
+  }
+  .common_heading p {
+    font-size: 15px;
+  }
+  .service_item {
+    padding: 40px 90px;
+    margin-top: 20px;
+    min-height: 270px;
+  }
+  .service_item p {
+    font-size: 15px;
+  }
+  #contact form input,
+  #contact form textarea {
+    font-size: 15px;
+  }
+}
+/* extra Small devices (landscape phones, 576px and up) */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* #main {
+    height: 700px;
+  } */
+  .hey {
+    font-size: 35px;
+  }
+  .name {
+    font-size: 30px;
+  }
+  .main_left h4 {
+    font-size: 20px;
+  }
+  .about_right .intro {
+    font-size: 20px;
+  }
+  .about_right p {
+    font-size: 15px;
+  }
+  .common_heading .title {
+    font-size: 25px;
+  }
+  .common_heading p {
+    font-size: 15px;
+  }
+
+  .service_item {
+    padding: 40px 90px;
+    margin-top: 20px;
+    min-height: 270px;
+  }
+  .service_item p {
+    font-size: 15px;
+  }
+  #contact form input,
+  #contact form textarea {
+    font-size: 15px;
+  }
+  .follow {
+    font-size: 25px;
+  }
+  .top_left span {
+    padding-right: 25px;
+  }
 }
